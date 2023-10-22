@@ -29,7 +29,7 @@ $logout = function () {
                         {{ __('Dashboard') }}
                     </x-nav-link>
                     <x-nav-link :href="route('chirps')" :active="request()->routeIs('chirps')" wire:navigate>
-                        {{ __('Chirps') }}
+                        {{ __('Chirpszz!') }}
                     </x-nav-link>
                 </div>
             </div>
@@ -83,7 +83,7 @@ $logout = function () {
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('chirps')" :active="request()->routeIs('chirps')" wire:navigate>
-                {{ __('Chirps')}}
+                {{ __('Chirpszzzz')}}
             </x-responsive-nav-link>
         </div>
 
